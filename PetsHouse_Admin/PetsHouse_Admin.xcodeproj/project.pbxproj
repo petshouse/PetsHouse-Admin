@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,10 @@
 		9F840429261435AF00F6973B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F840427261435AF00F6973B /* Main.storyboard */; };
 		9F84042B261435B200F6973B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F84042A261435B200F6973B /* Assets.xcassets */; };
 		9F84042E261435B200F6973B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F84042C261435B200F6973B /* LaunchScreen.storyboard */; };
+		9F840450261436E500F6973B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F84044F261436E500F6973B /* Test.swift */; };
+		9F840454261436F200F6973B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F840453261436F200F6973B /* ViewModelType.swift */; };
+		9F840457261436FC00F6973B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F840456261436FC00F6973B /* Service.swift */; };
+		9F84045A2614370500F6973B /* TestNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8404592614370500F6973B /* TestNet.swift */; };
 		D41E8B97A3E2AE0624EF10C8 /* Pods_PetsHouse_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB67B00102F1CDE650C67D14 /* Pods_PetsHouse_Admin.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +29,10 @@
 		9F84042A261435B200F6973B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F84042D261435B200F6973B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F84042F261435B200F6973B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F84044F261436E500F6973B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		9F840453261436F200F6973B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModelType.swift; path = PetsHouse_Admin/Source/Model/ViewModelType.swift; sourceTree = SOURCE_ROOT; };
+		9F840456261436FC00F6973B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9F8404592614370500F6973B /* TestNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNet.swift; sourceTree = "<group>"; };
 		B0486D2B6768C1719A4ED974 /* Pods-PetsHouse_Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetsHouse_Admin.release.xcconfig"; path = "Target Support Files/Pods-PetsHouse_Admin/Pods-PetsHouse_Admin.release.xcconfig"; sourceTree = "<group>"; };
 		EC27EC8541FA9B7ADAA6F06E /* Pods-PetsHouse_Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetsHouse_Admin.debug.xcconfig"; path = "Target Support Files/Pods-PetsHouse_Admin/Pods-PetsHouse_Admin.debug.xcconfig"; sourceTree = "<group>"; };
 		FB67B00102F1CDE650C67D14 /* Pods_PetsHouse_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetsHouse_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,7 +56,6 @@
 				EC27EC8541FA9B7ADAA6F06E /* Pods-PetsHouse_Admin.debug.xcconfig */,
 				B0486D2B6768C1719A4ED974 /* Pods-PetsHouse_Admin.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,15 +88,91 @@
 		9F840420261435AF00F6973B /* PetsHouse_Admin */ = {
 			isa = PBXGroup;
 			children = (
-				9F840421261435AF00F6973B /* AppDelegate.swift */,
-				9F840423261435AF00F6973B /* SceneDelegate.swift */,
-				9F840425261435AF00F6973B /* ViewController.swift */,
-				9F840427261435AF00F6973B /* Main.storyboard */,
-				9F84042A261435B200F6973B /* Assets.xcassets */,
-				9F84042C261435B200F6973B /* LaunchScreen.storyboard */,
-				9F84042F261435B200F6973B /* Info.plist */,
+				9F8404472614365C00F6973B /* Resource */,
+				9F8404462614365600F6973B /* Source */,
+				9F8404442614363D00F6973B /* Supporting Files */,
 			);
 			path = PetsHouse_Admin;
+			sourceTree = "<group>";
+		};
+		9F8404442614363D00F6973B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F84042F261435B200F6973B /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F8404462614365600F6973B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9F84044E261436C100F6973B /* Application */,
+				9F84044D261436BA00F6973B /* Networking */,
+				9F84044C261436B300F6973B /* Service */,
+				9F84044B261436AC00F6973B /* ViewController */,
+				9F84044A261436A700F6973B /* Model */,
+				9F840449261436A000F6973B /* ViewModel */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9F8404472614365C00F6973B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9F840427261435AF00F6973B /* Main.storyboard */,
+				9F84042C261435B200F6973B /* LaunchScreen.storyboard */,
+				9F84042A261435B200F6973B /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9F840449261436A000F6973B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F840453261436F200F6973B /* ViewModelType.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F84044A261436A700F6973B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F84044F261436E500F6973B /* Test.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F84044B261436AC00F6973B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9F840425261435AF00F6973B /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9F84044C261436B300F6973B /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9F840456261436FC00F6973B /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9F84044D261436BA00F6973B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9F8404592614370500F6973B /* TestNet.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9F84044E261436C100F6973B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9F840421261435AF00F6973B /* AppDelegate.swift */,
+				9F840423261435AF00F6973B /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,8 +290,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F840426261435AF00F6973B /* ViewController.swift in Sources */,
+				9F840450261436E500F6973B /* Test.swift in Sources */,
 				9F840422261435AF00F6973B /* AppDelegate.swift in Sources */,
+				9F84045A2614370500F6973B /* TestNet.swift in Sources */,
+				9F840454261436F200F6973B /* ViewModelType.swift in Sources */,
 				9F840424261435AF00F6973B /* SceneDelegate.swift in Sources */,
+				9F840457261436FC00F6973B /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PetsHouse_Admin/Info.plist;
+				INFOPLIST_FILE = "PetsHouse_Admin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,7 +463,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PetsHouse_Admin/Info.plist;
+				INFOPLIST_FILE = "PetsHouse_Admin/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
