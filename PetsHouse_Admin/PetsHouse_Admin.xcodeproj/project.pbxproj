@@ -17,6 +17,8 @@
 		9F840454261436F200F6973B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F840453261436F200F6973B /* ViewModelType.swift */; };
 		9F840457261436FC00F6973B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F840456261436FC00F6973B /* Service.swift */; };
 		9F84045A2614370500F6973B /* TestNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8404592614370500F6973B /* TestNet.swift */; };
+		9F879CCC261AA79C006FD55E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F879CCB261AA79C006FD55E /* SignInViewController.swift */; };
+		9F879CEA261AA871006FD55E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F879CE9261AA871006FD55E /* UIColor.swift */; };
 		D41E8B97A3E2AE0624EF10C8 /* Pods_PetsHouse_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB67B00102F1CDE650C67D14 /* Pods_PetsHouse_Admin.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		9F840453261436F200F6973B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModelType.swift; path = PetsHouse_Admin/Source/Model/ViewModelType.swift; sourceTree = SOURCE_ROOT; };
 		9F840456261436FC00F6973B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		9F8404592614370500F6973B /* TestNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNet.swift; sourceTree = "<group>"; };
+		9F879CCB261AA79C006FD55E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		9F879CE9261AA871006FD55E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		B0486D2B6768C1719A4ED974 /* Pods-PetsHouse_Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetsHouse_Admin.release.xcconfig"; path = "Target Support Files/Pods-PetsHouse_Admin/Pods-PetsHouse_Admin.release.xcconfig"; sourceTree = "<group>"; };
 		EC27EC8541FA9B7ADAA6F06E /* Pods-PetsHouse_Admin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetsHouse_Admin.debug.xcconfig"; path = "Target Support Files/Pods-PetsHouse_Admin/Pods-PetsHouse_Admin.debug.xcconfig"; sourceTree = "<group>"; };
 		FB67B00102F1CDE650C67D14 /* Pods_PetsHouse_Admin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetsHouse_Admin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +110,7 @@
 		9F8404462614365600F6973B /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				9F879CE8261AA863006FD55E /* Extension */,
 				9F84044E261436C100F6973B /* Application */,
 				9F84044D261436BA00F6973B /* Networking */,
 				9F84044C261436B300F6973B /* Service */,
@@ -146,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				9F840425261435AF00F6973B /* ViewController.swift */,
+				9F879CCB261AA79C006FD55E /* SignInViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -173,6 +179,14 @@
 				9F840423261435AF00F6973B /* SceneDelegate.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		9F879CE8261AA863006FD55E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9F879CE9261AA871006FD55E /* UIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +307,8 @@
 				9F840450261436E500F6973B /* Test.swift in Sources */,
 				9F840422261435AF00F6973B /* AppDelegate.swift in Sources */,
 				9F84045A2614370500F6973B /* TestNet.swift in Sources */,
+				9F879CEA261AA871006FD55E /* UIColor.swift in Sources */,
+				9F879CCC261AA79C006FD55E /* SignInViewController.swift in Sources */,
 				9F840454261436F200F6973B /* ViewModelType.swift in Sources */,
 				9F840424261435AF00F6973B /* SceneDelegate.swift in Sources */,
 				9F840457261436FC00F6973B /* Service.swift in Sources */,
