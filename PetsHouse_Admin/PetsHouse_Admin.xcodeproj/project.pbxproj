@@ -21,7 +21,6 @@
 		9F840450261436E500F6973B /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F84044F261436E500F6973B /* Test.swift */; };
 		9F840454261436F200F6973B /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F840453261436F200F6973B /* ViewModelType.swift */; };
 		9F840457261436FC00F6973B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F840456261436FC00F6973B /* Service.swift */; };
-		9F84045A2614370500F6973B /* TestNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8404592614370500F6973B /* TestNet.swift */; };
 		9F879CCC261AA79C006FD55E /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F879CCB261AA79C006FD55E /* SignInViewController.swift */; };
 		9F879CEA261AA871006FD55E /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F879CE9261AA871006FD55E /* UIColor.swift */; };
 		D41E8B97A3E2AE0624EF10C8 /* Pods_PetsHouse_Admin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB67B00102F1CDE650C67D14 /* Pods_PetsHouse_Admin.framework */; };
@@ -44,7 +43,6 @@
 		9F84044F261436E500F6973B /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		9F840453261436F200F6973B /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewModelType.swift; path = PetsHouse_Admin/Source/Model/ViewModelType.swift; sourceTree = SOURCE_ROOT; };
 		9F840456261436FC00F6973B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
-		9F8404592614370500F6973B /* TestNet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestNet.swift; sourceTree = "<group>"; };
 		9F879CCB261AA79C006FD55E /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		9F879CE9261AA871006FD55E /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		B0486D2B6768C1719A4ED974 /* Pods-PetsHouse_Admin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetsHouse_Admin.release.xcconfig"; path = "Target Support Files/Pods-PetsHouse_Admin/Pods-PetsHouse_Admin.release.xcconfig"; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 		9F84044D261436BA00F6973B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				9F8404592614370500F6973B /* TestNet.swift */,
 				9F6BEBB7262AAD43000BC386 /* Network.swift */,
 			);
 			path = Networking;
@@ -330,7 +327,6 @@
 				9F6BEBBB262AB0CC000BC386 /* TokenModel.swift in Sources */,
 				9F840450261436E500F6973B /* Test.swift in Sources */,
 				9F840422261435AF00F6973B /* AppDelegate.swift in Sources */,
-				9F84045A2614370500F6973B /* TestNet.swift in Sources */,
 				9F6BEBB5262AAB21000BC386 /* SignUpViewController.swift in Sources */,
 				9F6BEBB8262AAD43000BC386 /* Network.swift in Sources */,
 				9F879CEA261AA871006FD55E /* UIColor.swift in Sources */,
