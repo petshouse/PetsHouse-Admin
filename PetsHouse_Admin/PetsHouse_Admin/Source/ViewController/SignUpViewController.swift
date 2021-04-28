@@ -96,7 +96,7 @@ class SignUpViewController: UIViewController {
     private func constantraint() {
         logoView.snp.makeConstraints { (make) in
             make.centerX.equalTo(view)
-            make.top.equalTo(view.frame.height/5)
+            make.top.equalTo(view.frame.height/7)
             make.width.height.equalTo(220)
         }
         nicknameLbl.snp.makeConstraints { (make) in
@@ -136,14 +136,16 @@ class SignUpViewController: UIViewController {
             make.trailing.equalTo(-30)
         }
         signUpBtn.snp.makeConstraints { (make) in
-            make.top.equalTo(passwordTxtField.snp.bottom).offset(30)
+            make.top.equalTo(passwordTxtField.snp.bottom).offset(40)
             make.centerX.equalTo(view)
             make.leading.equalTo(30)
             make.trailing.equalTo(-30)
+            make.height.equalTo(43)
         }
         signInBtn.snp.makeConstraints { (make) in
             make.top.equalTo(signUpBtn.snp.bottom).offset(10)
             make.centerX.equalTo(view)
+            make.height.equalTo(25)
         }
 
     }
