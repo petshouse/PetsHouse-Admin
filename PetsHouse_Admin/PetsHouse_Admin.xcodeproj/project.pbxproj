@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F6362AF263920C80025FCCF /* CodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6362AE263920C80025FCCF /* CodeViewController.swift */; };
 		9F6BEBB5262AAB21000BC386 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BEBB4262AAB21000BC386 /* SignUpViewController.swift */; };
 		9F6BEBB8262AAD43000BC386 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BEBB7262AAD43000BC386 /* Network.swift */; };
 		9F6BEBBB262AB0CC000BC386 /* TokenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6BEBBA262AB0CC000BC386 /* TokenModel.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F6362AE263920C80025FCCF /* CodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeViewController.swift; sourceTree = "<group>"; };
 		9F6BEBB4262AAB21000BC386 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		9F6BEBB7262AAD43000BC386 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		9F6BEBBA262AB0CC000BC386 /* TokenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenModel.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 			children = (
 				9F879CCB261AA79C006FD55E /* SignInViewController.swift */,
 				9F6BEBB4262AAB21000BC386 /* SignUpViewController.swift */,
+				9F6362AE263920C80025FCCF /* CodeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F6BEBBB262AB0CC000BC386 /* TokenModel.swift in Sources */,
+				9F6362AF263920C80025FCCF /* CodeViewController.swift in Sources */,
 				9F840450261436E500F6973B /* Test.swift in Sources */,
 				9F840422261435AF00F6973B /* AppDelegate.swift in Sources */,
 				9F6BEBB5262AAB21000BC386 /* SignUpViewController.swift in Sources */,
